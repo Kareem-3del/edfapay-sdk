@@ -76,10 +76,6 @@ edfapay.initiatePayment(orderPayload, payerPayload)
     .catch(error => console.error('Error initiating payment:', error.message));
 ```
 
-## Sponsor
-
-[![TarmeezTech](https://www.tarmeeztech.com/front/images/logo/logo.svg)](https://www.tarmeeztech.com)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

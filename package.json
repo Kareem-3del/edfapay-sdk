@@ -1,5 +1,5 @@
 {
-  "name": "@edfapay/sdk",
+  "name": "edfapay-sdk",
   "version": "0.1.0",
   "description": "EdfaPay is a payment gateway that allows you to accept payments from your customers and make payouts to your customers.",
   "main": "dist/index.js",
@@ -14,14 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kareem-3del/Edfapay.git"
+    "url": "git+https://github.com/Kareem-3del/edfapay-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/Kareem-3del/Edfapay/issues"
+    "url": "https://github.com/Kareem-3del/edfapay-sdk/issues"
   },
-  "homepage": "https://github.com/Kareem-3del/Edfapay#readme",
+  "homepage": "https://github.com/Kareem-3del/edfapay-sdk#readme",
   "keywords": [
     "edfapay",
+    "edfapay-sdk",
     "payment",
     "gateway",
     "payment-gateway",
@@ -45,8 +46,5 @@
     "jest": "^29.7.0",
     "ts-jest": "^29.2.3",
     "typescript": "^5.5.4"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

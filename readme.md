@@ -1,7 +1,7 @@
 [![Edfapay](https://edfapay.com/api/asseset/logo.png)](https://edfapay.com)
 
 # Edfapay SDK
-[![npm version](https://badge.fury.io/js/@edfapay%2Fsdk.svg)](https://www.npmjs.com/package/@edfapay/sdk)
+[![npm version](https://badge.fury.io/js/edfapay-sdk.svg)](https://www.npmjs.com/package/edfapay-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 Edfapay SDK is a Node.js library that simplifies the integration with the Edfapay payment gateway. It provides a straightforward API for initiating payments, processing refunds, and checking the status of transactions.
@@ -29,10 +29,10 @@ Edfapay SDK is a Node.js library that simplifies the integration with the Edfapa
 Install the package via npm:
 
 ```bash
-npm install @edfapay/sdk
+npm install edfapay-sdk
 ```
 
-> Previously published as `edfapay`. That package is deprecated; replace it with `@edfapay/sdk` — the API is unchanged.
+> Previously published as `edfapay`. Replace it with `edfapay-sdk` — the API is unchanged.
 
 ## Getting Started
 
@@ -41,7 +41,7 @@ npm install @edfapay/sdk
 To get started, you need to initialize the Edfapay SDK with your API key and secret. You can obtain these credentials by signing up for an account on the [Edfapay website](https://edfapay.com).
 
 ```typescript
-import { Edfapay } from '@edfapay/sdk';
+import { Edfapay } from 'edfapay-sdk';
 
 const edfapay = new Edfapay(
     EDFAPAY_API_KEY,
@@ -52,7 +52,7 @@ const edfapay = new Edfapay(
 
 ### Initiate a Payment
 ```typescript
-import { OrderPayload, PayerPayload } from '@edfapay/sdk';
+import { OrderPayload, PayerPayload } from 'edfapay-sdk';
 
 const orderPayload: OrderPayload = {
     order_id: 'order_id_example',
